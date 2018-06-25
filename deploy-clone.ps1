@@ -16,7 +16,7 @@
 
 import-module ./new-instantclone.psm1
 
-Connect-VIServer -server 172.16.1.100 -user "administrator@vsphere.local" -password "11.11Gavis4569"
+Connect-VIServer -server 172.16.1.100 -user "administrator@vsphere.local" -password "MyPassword"
 $sourceVM="SourceCentOS"
 
 $StartTime = Get-Date
